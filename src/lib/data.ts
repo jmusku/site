@@ -1,5 +1,5 @@
 export const profile = {
-  name: "Jeevan Reddy Musku",
+  name: "Jeevan Musku",
   role: "Senior Software Engineer & Technical Lead",
   subroles: [
     "Architecture & Engineering Leadership",
