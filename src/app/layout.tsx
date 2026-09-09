@@ -4,6 +4,7 @@ import "./globals.css";
 import { profile } from "@/lib/data";
 import { ChatWidgetProvider } from "@/components/ChatWidgetContext";
 import { DigitalTwinChat } from "@/components/DigitalTwinChat";
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -37,6 +38,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           {children}
           <DigitalTwinChat />
         </ChatWidgetProvider>
+        <SpeedInsights />
       </body>
     </html>
   );
